@@ -1,0 +1,256 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+}
+.navbar-brand{ 
+    margin-left: 2vw;
+}
+.collapse{ 
+    padding-left: 55vw;
+    font-size: 1rem;
+}
+.btnB{ 
+    width: 110px;
+    background-color: white;
+    border: 0px;
+    font-size: 1rem;
+   
+}
+.btnB:hover{ 
+    width: 110px;
+    height: 50px;
+    background-color: rgb(221, 51, 68);
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 1rem;
+   
+}
+.texto1{ 
+   
+    height: 20vw;
+    text-align: left;
+    padding-top: 5vw;
+    padding-left: 20vw;
+    font-size: 1rem;
+    
+
+}
+.btn1{ 
+    background-color: rgba(228, 228, 231, 0.834);
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    border: 0px;
+    color: rgb(0, 0, 0);
+}
+.btn1:hover{ 
+    transform:  scale(1.1);
+    background-color: rgba(91, 91, 229, 0.834);
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 0px;
+    color: rgb(255, 255, 255);
+}
+.imagen1{ 
+    padding: 0px 0px 0px 0px ;
+    
+    margin: 0px 0px 0px 0px;
+}
+.Texto2{ 
+   
+    text-align: center;
+    
+}
+.BtnG2{ 
+    text-align: center;
+}
+.Btn2{ 
+    background-color: white;
+    
+    height: 50px;
+    width: 200px;
+    border: 0px;
+}
+.Btn2:hover{ 
+    transform: scale(1.1);
+    font-size: 1.2rem;
+    background-color: rgb(221, 51, 68);
+    color: aliceblue;
+    border-radius: 10px;
+   }
+.Texto3{ 
+    padding-top: 180px;
+    margin-left: 160px;
+    
+}
+.BtnL2{ 
+    background-color: rgba(228, 228, 231, 0.834);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    color: rgb(0, 0, 0);
+}
+.BtnL2:hover{ 
+    transform:  scale(1.1);
+    background-color: rgba(91, 91, 229, 0.834);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 0px;
+    color: rgb(255, 255, 255);
+}
+.GT1{ 
+    
+   
+}
+.text4{
+    text-align: center;
+}
+.puto{
+   
+    position: relative;
+    display:grid;
+    width: 50vw;
+    height: 25vw;
+    margin-left: 25%;
+}
+.ficha1{
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    border-radius: 20px;
+    margin-left: 12%;
+    margin-right: 0%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+    text-align: center;
+
+}
+.ficha2{
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    text-align: center;
+}
+.ficha3{
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 30%;
+    text-align: center;
+}
+.img1{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.img2{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.img3{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.tex1{
+    padding-bottom: 10%;
+}
+.tex2{
+    padding-bottom: 10%;
+}
+.tex3{
+    padding-bottom: 10%;
+}
+
+.text5{ 
+   text-align: center;
+}
+.mitad{
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: black;
+}
+
+#collapseOne{
+    text-align: left;
+    position: left;
+    margin-right: 10;
+    padding-left:0% ; 
+    text-align: center;
+    margin-bottom: 1%;
+    
+}
+#collapseTwo{
+    text-align: left;
+    position: left;
+    margin-right: 10;
+    padding-left:0% ; 
+    text-align: center;
+    margin-bottom: 1%;
+}
+#collapseThree{
+    text-align: left;
+    position: left;
+    margin-right: 10;
+    padding-left:0% ; 
+    text-align: center;
+    margin-bottom: 1%;
+}
+#collapseFour{
+    text-align: left;
+    position: left;
+    margin-right: 10;
+    padding-left:0% ; 
+    text-align: center;
+    margin-bottom: 2%;
+}
+@media screen and (min-width:1030px){
+    .puto{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 5px;
+    }
+    }
+.Pr1{ 
+    background-color: rgba(91, 91, 229, 0.834);
+    text-align: center;
+    height:26vw;
+}
+.P1{ 
+    color: white;
+    padding-top: 5vw;
+    font-size: 2rem;
+}
+.P2{ 
+    color: white;
+    padding-top: 1vw;
+    font-size: 3rem;
+}
+.Pr2{ 
+    color: white;
+    padding-top: 2vw;
+    font-size: 3rem;
+    width: 60vw;
+    padding-left: 38vw;
+}
+.BA1{ 
+    background-color: rgb(49, 49, 83);
+    height: 5vw;
+}
+
+
+
+
+
